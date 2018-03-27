@@ -4,17 +4,84 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>프론트엔드 101 : 동일</title>
+    <title>올릿</title>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
 
     <!-- bootstrap css -->
     <link rel="stylesheet" href="bootstrap-3.3.2-dist/css/bootstrap.min.css">
+
 </head>
 <body>
-    <div class="parent">
-        <div class="child red">Child</div>
-        <div class="child yellow">Child</div>
-        <div class="child blue">Child</div>
+    <div class="container-fluid header">
+       <nav class="row">
+            <div class="img_div col-xs-3 col-md-2 text-center">
+                <a href="#">
+                    <img class="logo" src="img/ollit_logo.png" alt="올릿">
+                </a>
+            </div>
+            <div class="about_ollit col-xs-3 col-md-2 col-xs-offset-6 col-md-offset-8 text-center">
+                <a href="#" id="about_ollit">올릿이란?</a>
+            </div>
+        </nav>
+        <header class="row">
+            <div class="motto col-xs-offset-1 col-md-offset-2 col-xs-10 col-md-8 text-center">
+                <small>올릿과 함께하는 IT 공부</small> <br>
+                엄마 아빠! 올릿이 알려드리겠습니다!!
+            </div>
+        </header>
     </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="course_list col-sm-offset-1 col-xs-3 col-sm-2 text-center">강좌 목록</div>
+        </div>
+        <div class="row courses">
+
+            <div id="course_card" class="col-xs-6 col-sm-4">
+                <a href="#"><article>
+                    <img class="course_img" src="img/course_image1.png" alt="이모티콘 배우기">
+                    <div class="course_info">
+                        <small>스마트폰</small> <br>
+                        카카오톡편
+                    </div>
+                    <div class="course_info2">
+                        <img src="img/course_rank.png" class="course_rank" alt="별점">
+                        <div class="course_price">무료</div>
+                    </div>
+                </article></a>
+            </div>
+
+            <div id="course_card" class="col-xs-6 col-sm-4">
+                <a href="#"><article>
+                    <img class="course_img" src="img/course_image2.png" alt="새로운 앱 배우기">
+                    <div class="course_info">
+                        <small>스마트폰</small> <br>
+                        카카오톡편
+                    </div>
+                    <div class="course_info2">
+                        <img src="img/course_rank.png" class="course_rank" alt="별점">
+                        <div class="course_price">25000원</div>
+                    </div>
+                </article></a>
+            </div>
+
+            <div id="course_card" class="col-xs-6 col-sm-4">
+                <a href="#"><article>
+                    <img class="course_img" src="img/course_image2.png" alt="이모티콘 배우기">
+                    <div class="course_info">
+                        <small>스마트폰</small> <br>
+                        카카오톡편
+                    </div>
+                    <div class="course_info2">
+                        <img src="img/course_rank.png" class="course_rank" alt="별점">
+                        <div class="course_price">무료</div>
+                    </div>
+                </article></a>
+            </div>
+        </div>
+    </div>
+
 
 <!-- script -->
 <script src="bootstrap-3.3.2-dist/js/jquery-3.3.1.min.js"></script>
