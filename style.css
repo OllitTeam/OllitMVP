@@ -1,0 +1,209 @@
+@media (max-width: 768px)
+{
+    body
+    {
+        font-size: 8px;
+    }
+    #course_card
+    {
+        padding-left: 4vw;
+        padding-right: 4vw;
+        margin-bottom: 8vw;
+    }
+    .course_info
+    {
+        font-size: 4vw;
+        padding-bottom: 5vw;
+    }
+    .course_rank
+    {
+        width: 18vw;
+    }
+    .course_price
+    {
+        margin-right: 1vw;
+        font-size: 3vw;
+    }
+    .course_list
+    {
+        font-size: 4vw;
+    }
+}
+@media (min-width: 769px) and (max-width: 991px)
+{
+    body
+    {
+        font-size: 10px;
+    }
+    .courses
+    {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+    #course_card
+    {
+        padding-left: 2vw;
+        padding-right: 2vw;
+        margin-bottom: 4vw;
+    }
+    .course_info
+    {
+        font-size: 2vw;
+        padding-bottom: 3vw;
+    }
+    .course_rank
+    {
+        width: 9vw;
+    }
+    .course_price
+    {
+        margin-right: 0.5vw;
+        font-size: 1.5vw;
+    }
+    .course_list
+    {
+        font-size: 3vw;
+    }
+}
+@media (min-width: 992px)
+{
+    body
+    {
+        font-size: 12px;
+    }
+    .courses
+    {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+    #course_card
+    {
+        padding-left: 2vw;
+        padding-right: 2vw;
+        margin-bottom: 4vw;
+    }
+    .course_info
+    {
+        font-size: 2vw;
+        padding-bottom: 3vw;
+    }
+    .course_rank
+    {
+        width: 9vw;
+    }
+    .course_price
+    {
+        margin-right: 0.5vw;
+        font-size: 1.5vw;
+    }
+    .course_list
+    {
+        font-size: 2vw;
+    }
+}
+
+@font-face {
+    font-family: 'NanumRegular';
+    src: url("fonts/NanumGothic.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'NanumSquareRegular';
+    src: url("fonts/NanumSquareR.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'NanumSquareBold';
+    src: url("fonts/NanumSquareB.ttf") format('truetype');
+}
+
+body
+{
+    font-family: NanumRegular;
+}
+
+.header
+{
+    background-image: url(img/background-image-01.png);
+    background-size: 100%;
+}
+
+.logo
+{
+    height: 6vw;
+    width: auto;
+}
+
+.img_div
+{
+    height: 100%;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    line-height: 6vw;
+}
+
+.about_ollit
+{
+    color: #FFFFFF;
+    height: 100%;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    line-height: 6vw;
+    font-size: 2vw;
+}
+
+#about_ollit
+{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.motto
+{
+    color: #FFFFFF;
+    font-size: 3.8vw;
+    margin-top: 3vw;
+    margin-bottom: 10vw;
+}
+
+.course_list
+{
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    font-family: NanumSquareRegular;
+    color: #141414;
+}
+
+.course_img
+{
+    width: 100%;
+}
+
+.course_info
+{
+    padding-left: 0.5vw;
+    font-family: NanumSquareRegular;
+    color: #141414;
+    text-decoration: none;
+}
+
+.course_info2
+{
+    padding-bottom: 1vw;
+}
+
+.course_price
+{
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: center;
+    font-family: NanumSquareBold;
+    color: #279CFC;
+    float: right;
+}
+
+article
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
