@@ -7,7 +7,7 @@
             <img class="header_elem" id="logo" src="../assets/ollit_logo_korean.png" />
           </a>
         </div>
-        <div class="col-md-2 offset-md-6 col-sm-2 offset-sm-7 col-1 offset-1" id="header_info">
+        <div class="col-md-2 offset-md-6 col-sm-2 offset-sm-7 col-2 offset-7" id="header_info">
           <div id="header_info_text" class="header_elem">올릿이란?</div>
         </div>
       </div>
